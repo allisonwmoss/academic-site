@@ -1,5 +1,40 @@
 /* Link to color pallete: https://coolors.co/007f5f-2b9348-55a630-80b918-aacc00-bfd200-d4d700-dddf00-eeef20-ffff3f */
 
+/* Nav bar */
+nav {
+border: 1px solid transparent;
+background-color: #2B9348;
+font-family: 'Work Sans', sans serif; 
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+}
+
+.option {
+    display: inline-block;
+}
+
+.menu li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: #FFFF3F;
+    text-decoration: none;
+}
+
 /* don't delete this container or modify this flex property, it's essential for the horizontal alignment */
 .container {
     display: flex;
@@ -8,28 +43,28 @@
 /* don't touch the .headertext display property either, it needs to be block */
 .headertext {
     display: block;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
-.image img {
-    width: 55%;
+.home-image img {
+    width: 600px;
     float: right;
     margin: 15px;
 }
 
 h1.header {
-    font-family: 'Open Sans', sans serif; 
+    font-family: 'Work Sans', sans serif; 
     line-height: 2;
     font-size: 2em;
 }
 
 h2.subheader {
-    font-family: 'Open Sans', sans serif; 
+    font-family: 'Work Sans', sans serif; 
     line-height: 2.5;
     font-size: 1.5em;
 }
 
 span.green-a {
-    color: #80b918;
+    color: #2B9348;
 }
