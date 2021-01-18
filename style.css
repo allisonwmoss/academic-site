@@ -1,15 +1,35 @@
+/* Link to color pallete: https://coolors.co/007f5f-2b9348-55a630-80b918-aacc00-bfd200-d4d700-dddf00-eeef20-ffff3f */
+
+/* don't delete this container or modify this flex property, it's essential for the horizontal alignment */
+.container {
+    display: flex;
+}
+
+/* don't touch the .headertext display property either, it needs to be block */
+.headertext {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.image img {
+    width: 55%;
+    float: right;
+    margin: 15px;
+}
+
 h1.header {
     font-family: 'Open Sans', sans serif; 
-    width: 50%;
     line-height: 2;
+    font-size: 2em;
 }
 
 h2.subheader {
     font-family: 'Open Sans', sans serif; 
-    width: 50%;
     line-height: 2.5;
+    font-size: 1.5em;
 }
 
 span.green-a {
-    color: #3a5a40;
+    color: #80b918;
 }
