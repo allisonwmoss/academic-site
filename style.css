@@ -21,18 +21,25 @@ font-family: 'Work Sans', sans serif;
 }
 
 .menu li a:link {
-    color: black;
+    color: #FFFF3F;
     text-decoration: none;
 }
 
 .menu li a:hover {
     color: white;
     text-decoration: none;
+    transition: 1s;
 }
 
 .menu li a:visited {
     color: #FFFF3F;
     text-decoration: none;
+}
+
+.menu li a:visited:hover {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
 }
 
 /* don't delete this container or modify this flex property, it's essential for the horizontal alignment */
