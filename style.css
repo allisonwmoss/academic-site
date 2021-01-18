@@ -1,0 +1,15 @@
+h1.header {
+    font-family: 'Open Sans', sans serif; 
+    width: 50%;
+    line-height: 2;
+}
+
+h2.subheader {
+    font-family: 'Open Sans', sans serif; 
+    width: 50%;
+    line-height: 2.5;
+}
+
+span.green-a {
+    color: #3a5a40;
+}
