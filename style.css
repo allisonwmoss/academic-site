@@ -29,6 +29,7 @@ font-family: 'Work Sans', sans serif;
     color: white;
     text-decoration: none;
     transition: 1s;
+
 }
 
 .menu li a:visited {
@@ -54,6 +55,15 @@ font-family: 'Work Sans', sans serif;
     margin: 5px;
 }
 
+.header-special {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Work Sans', sans serif; 
+    line-height: 2;
+    font-size: 2em;
+}
+
 .home-image img {
     width: 600px;
     float: right;
@@ -70,6 +80,67 @@ h2.subheader {
     font-family: 'Work Sans', sans serif; 
     line-height: 2.5;
     font-size: 1.5em;
+}
+
+h3.university {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+h4.department {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1em;
+    font-style: italic;
+    display: inline;
+}
+
+h4.date {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1em;
+    font-style: italic;
+    display: inline;
+    padding-left: 100px;
+}
+
+h5 {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1em;
+    line-height: .5;
+}
+.datefromto {
+    display: inline;
+    border-bottom: 1px solid black;
+}
+
+.CV {
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: #F3FF70;
+    font-family: 'Work Sans', sans serif; 
+}
+
+
+.UO {
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.UCF {
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.orlando {
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.specific-sub {
+    font-style: italic;
 }
 
 span.green-a {
@@ -89,14 +160,42 @@ span.green-a {
     width: 600px;
     float: right;
     margin: 1px;
+    transform: translateX(40px);
 }
 
 .container2 {
     display:flex;
 }
 
+.container3 {
+    display: flex;
+}
+
 .aboutme-image2 img {
     width: 100%;
+    height: 461px;
     float: left;
     margin: 10px 10px 5px 0px;
+}
+
+h2.download {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1em;
+    padding-left: 50px;
+    transform: translateY(20px);
+}
+
+h2.download:hover {
+    color: #2B9348;
+    transition: 0.5s;
+}
+
+.foot-text {
+    border: 1px solid transparent;
+    background-color: #2B9348;
+    font-family: 'Work Sans', sans serif;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #FFFF3F;
 }
