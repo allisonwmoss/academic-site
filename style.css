@@ -185,9 +185,79 @@ h2.download {
     transform: translateY(20px);
 }
 
+#download {
+    font-family: 'Work Sans', sans serif; 
+    font-size: 1em;
+    padding-left: 50px;
+    color:black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#download:hover {
+    color: #2B9348;
+    transition: 0.5s;
+}
+
 h2.download:hover {
     color: #2B9348;
     transition: 0.5s;
+}
+
+
+form {
+    font-family: 'Work Sans', sans serif; 
+    margin: 10px;
+    font-size: 1em;
+}
+
+.name {
+    padding: 10px;
+    display: block;
+    
+}
+
+.name input {
+}
+
+.email {
+    display: block;
+    padding: 10px;
+}
+
+.message {
+    display: block;
+    padding: 10px;
+}
+
+#message {
+    width: 50%;
+    height: 300px;
+    font-size: 1em;
+    font-family: 'Work Sans', sans serif;
+    font-style: italic;
+
+}
+
+.button {
+    padding: 10px;
+}
+
+#button {
+    padding: 10px;
+    background-color: #2B9348;
+    color:  #FFFF3F;
+    font-family: 'Work Sans', sans serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 25%;
+}
+
+#button:hover {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
 }
 
 .foot-text {
