@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nick Altensee | Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation bar------------------------------------------------------------------------------------------------->
+    <nav class="menu">
+        <ul>
+            <li class="option"><a href="home.html">Home</a></li>
+            <li class="option"><a href="aboutme.html">About Me</a></li>
+            <li class="option"><a href="cv.html">CV</a></li>
+            <li class="option"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--End of Navigation bar------------------------------------------------------------------------------------------>
+
+    <form>
+        <form method="post" name="myemailform" action="contactform.php">
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="message">
+                <textarea name="message" id="message" required placeholder="Drop me a line here..."></textarea>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit" id="button">
+            </div>
+        </form>
+    </form>
+
+    <footer>
+        <h3 class="foot-text">&#169; Allison Moss, 2021. All rights reserved.</h3>
+    </footer>
+</body>
+
+</html>
