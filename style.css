@@ -48,6 +48,11 @@ h2 a {
     color: black;
 }
 
+h2 a:hover {
+    color: #2B9348;
+    transition: 1s;
+}
+
 /* don't delete this container or modify this flex property, it's essential for the horizontal alignment */
 .container {
     display: flex;
